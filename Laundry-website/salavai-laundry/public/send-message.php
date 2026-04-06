@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     // Email configuration
-    $to = "contact@thesalavailaundry.com";
+    $to = "contact@nammudelaundry.com";
     $subject = "New Website Inquiry from " . $name;
     
     // Build email message
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email_message .= "Message:\n" . $message . "\n";
     
     // Email headers - MUST use your actual Bluehost domain email
-    $headers = "From: contact@thesalavailaundry.com\r\n";
+    $headers = "From: contact@nammudelaundry.com\r\n";
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();
     

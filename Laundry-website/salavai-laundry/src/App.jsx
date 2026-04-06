@@ -94,7 +94,7 @@ const translations = {
       subtitle: 'Empowering traditional dhobis, homemakers, and entrepreneurs with state-of-the-art technology and sustainable business models.',
       cta: 'Start Your Journey',
       cta2: 'Partner With Us',
-      brand: 'THE SALAVAI',
+      brand: 'NAMMUDE LAUNDRY',
       tagline: 'Premium Laundry',
       programTitle: 'Self-Income Generating Program.'
     },
@@ -105,14 +105,14 @@ const translations = {
       tradition: 'Tradition',
       meets: 'Meets',
       innovation: 'Innovation',
-      p1: 'Sustainable livelihoods emerge when skill meets opportunity. This principle drives The Salavai Laundry, a transformative initiative dedicated to creating stable income pathways and foster economic independence.',
-      p2: 'We unite generations of mastery in fabric care with cutting-edge laundry technology to meet the rising demand for organized, professional laundry service in India (Tamil Nadu). Our mission is to help individuals and families establish scalable, dependable businesses that stand the test of time.',
+      p1: 'Sustainable livelihoods emerge when skill meets opportunity. This principle drives Nammude Laundry, a transformative initiative dedicated to creating stable income pathways and foster economic independence.',
+      p2: 'We unite generations of mastery in fabric care with cutting-edge laundry technology to meet the rising demand for organized, professional laundry service in India (Kerala). Our mission is to help individuals and families establish scalable, dependable businesses that stand the test of time.',
       p3: 'We serve a diverse community: traditional dhobis ready to modernize their craft, homemakers seeking financial independence, differently-abled individuals and ambitious entrepreneurs looking to enter the laundry industry. Through access to capital, training, and mentorship, we provide the tools and support required to build a successful laundry business.'
     },
     // Vision Section
     vision: {
       title: 'Our Vision',
-      p1: 'The Salavai Laundry is committed to strengthening local economies and empowering individuals to achieve financial independence through organized laundry entrepreneurship.',
+      p1: 'Nammude Laundry is committed to strengthening local economies and empowering individuals to achieve financial independence through organized laundry entrepreneurship.',
       p2: 'Our vision is to transform traditional laundry skills into sustainable, professional businesses that improve the quality of life and create scalable economic opportunity. We envision a future where laundry entrepreneurs drive community prosperity, delivering quality service, and create meaningful livelihood that uplift families and strengthen local economies.',
       transform: 'Transform',
       transformDesc: 'Modernizing skills into professional enterprises.',
@@ -123,7 +123,7 @@ const translations = {
     },
     // Why Salavai Section
     whySalavai: {
-      title: 'Why Salavai Laundry?',
+      title: 'Why Nammude Laundry?',
       reason1: 'Social welfare-focused initiative',
       reason2: 'Low investment',
       reason3: 'Complete support',
@@ -216,7 +216,7 @@ const translations = {
       phone: 'Phone',
       email: 'Email',
       location: 'Location',
-      locationValue: 'Chennai, Tamil Nadu',
+      locationValue: 'Thiruvananthapuram, Kerala',
       formTitle: 'Send Message',
       fullName: 'Full Name',
       fullNamePlaceholder: 'John Doe',
@@ -238,7 +238,7 @@ const translations = {
     nav: {
       home: 'ഹോം',
       about: 'ഞങ്ങളേക്കുറിച്ച്',
-      vision: 'ദർശനം',
+      vision: 'ലക്ഷ്യം',
       whySalavai: 'എന്തുകൊണ്ട് ഞങ്ങൾ',
       equipment: 'ഉപകരണങ്ങൾ',
       training: 'പരിശീലനം',
@@ -252,12 +252,12 @@ const translations = {
     // Hero Section
     hero: {
       badge: 'പ്രീമിയം ലോണ്ട്രി ഫ്രാഞ്ചൈസി',
-      title1: 'സലവൈ ലോണ്ട്രി',
+      title1: 'നമ്മുടെ ലോണ്ട്രി',
       title2: 'ഒരു ബിസിനസ് - ഒരു ജീവിതമാറ്റം',
       subtitle: 'പരമ്പരാഗത ധോബി കുടുംബങ്ങളെയും ഗൃഹണികളെയും സംരംഭകരെയും ആധുനിക ലോണ്ട്രി സാങ്കേതികവിദ്യയിലൂടെ സ്ഥിര വരുമാനത്തിലേക്ക് നയിക്കുന്നു.',
       cta: 'നിങ്ങളുടെ യാത്ര തുടങ്ങൂ',
       cta2: 'ഞങ്ങളോടൊപ്പം പങ്കാളിയാകൂ',
-      brand: 'സലവൈ ലോണ്ട്രി',
+      brand: 'നമ്മുടെ ലോണ്ട്രി',
       tagline: '',
       programTitle: 'സ്വയം വരുമാനം സൃഷ്ടിക്കുന്ന പദ്ധതി.'
     },
@@ -268,25 +268,25 @@ const translations = {
       tradition: 'പരമ്പര',
       meets: 'കണ്ടുമുട്ടുന്നത്',
       innovation: 'പുതുമ',
-      p1: 'കൗശലവും അവസരവും ഒന്നിക്കുന്നിടത്താണ് സ്ഥിരമായ ജീവിതോപാധി. ഇതാണ് സലവൈ ലോണ്ട്രിയുടെ അടിസ്ഥാനം.',
+      p1: 'കൗശലവും അവസരവും ഒന്നിക്കുന്നിടത്താണ് സ്ഥിരമായ ജീവിതോപാധി. ഇതാണ് നമ്മുടെ ലോണ്ട്രിയുടെ അടിസ്ഥാനം.',
       p2: 'പരമ്പരാഗത വസ്ത്രപരിചരണ പരിചയത്തെ ആധുനിക മെഷീനുകളുമായി ചേർത്ത് വിശ്വാസ്യതയുള്ള പ്രൊഫഷണൽ ലോണ്ട്രി ബിസിനസുകൾ നിർമ്മിക്കാൻ ഞങ്ങൾ സഹായിക്കുന്നു.',
       p3: 'ധോബി കുടുംബങ്ങൾ, ഗൃഹണികൾ, ഭിന്നശേഷിക്കാർ, തൊഴിൽ തേടുന്ന യുവാക്കൾ, ചെറിയ സംരംഭകർ എന്നിവർക്കായി പരിശീലനം, ഉപകരണങ്ങൾ, ധനസഹായ മാർഗനിർദ്ദേശം, മെന്ററിംഗ് എന്നിവ നൽകുന്നു.'
     },
     // Vision Section
     vision: {
-      title: 'ഞങ്ങളുടെ ദർശനം',
+      title: 'ഞങ്ങളുടെ ലക്ഷ്യം',
       p1: 'സംഘടിത ലോണ്ട്രി സംരംഭകത്വത്തിലൂടെ പ്രാദേശിക സമ്പദ്‌വ്യവസ്ഥ ശക്തിപ്പെടുത്തുകയും വ്യക്തികൾക്ക് സാമ്പത്തിക സ്വാതന്ത്ര്യം നേടാൻ സഹായിക്കുകയും ചെയ്യുക.',
       p2: 'പരമ്പരാഗത കഴിവുകളെ സ്ഥിരതയുള്ള പ്രൊഫഷണൽ ബിസിനസുകളാക്കി മാറ്റി സമൂഹത്തിനും കുടുംബങ്ങൾക്കും ദീർഘകാല വളർച്ച സൃഷ്ടിക്കുന്ന ഭാവിയാണ് ഞങ്ങളുടെ ലക്ഷ്യം.',
       transform: 'പരിവർത്തനം',
       transformDesc: 'കഴിവുകളെ പ്രൊഫഷണൽ സ്ഥാപനങ്ങളാക്കൽ.',
-      create: 'സൃഷ്ടിക്കൽ',
-      createDesc: 'വളർത്താനാകുന്ന സാമ്പത്തിക അവസരങ്ങൾ നിർമ്മിക്കൽ.',
-      deliver: 'നൽകൽ',
+      create: 'സൃഷ്ടിക്കുക',
+      createDesc: 'വിപുലീകരിക്കാനാകുന്ന സാമ്പത്തിക അവസരങ്ങൾ നിർമ്മിക്കുക',
+      deliver: 'നിറവേറ്റുക',
       deliverDesc: 'സമൂഹ പുരോഗതിക്ക് ഗുണമേൻമയുള്ള സേവനം.'
     },
     // Why Salavai Section
     whySalavai: {
-      title: 'എന്തുകൊണ്ട് സലവൈ ലോണ്ട്രി?',
+      title: 'എന്തുകൊണ്ട് നമ്മുടെ ലോണ്ട്രി?',
       reason1: 'സാമൂഹ്യക്ഷേമം ലക്ഷ്യമാക്കിയ പദ്ധതി',
       reason2: 'കുറഞ്ഞ നിക്ഷേപം',
       reason3: 'പൂർണ്ണ പിന്തുണ',
@@ -359,7 +359,8 @@ const translations = {
       item4: 'മെഷീനുകൾ',
       item5: 'പൂർണ്ണ പരിശീലനം',
       item6: 'മാർക്കറ്റിംഗ് പിന്തുണ',
-      item7: 'തുടർച്ചയായ മാർഗനിർദ്ദേശം'
+      item7: 'ഡിജിറ്റൽ മാർക്കറ്റിംഗ്',
+      item8: 'തുടർച്ചയായ മാർഗനിർദ്ദേശം'
     },
     // CSR & Government Support Section
     csrSupport: {
@@ -377,14 +378,14 @@ const translations = {
       subtitle: 'നിങ്ങളുടെ ഭാവി മാറ്റാൻ തയ്യാറാണോ? ഉപകരണങ്ങളും മാർഗനിർദ്ദേശവും സംബന്ധിച്ച് ഞങ്ങളെ സമീപിക്കൂ.',
       phone: 'ഫോൺ',
       email: 'ഇമെയിൽ',
-      location: 'സ്ഥലം',
-      locationValue: 'ചെന്നൈ, തമിഴ്നാട്',
+      location: 'പരമ്പരാഗത',
+      locationValue: 'തിരുവനന്തപുറം, കേരളം',
       formTitle: 'സന്ദേശം അയയ്ക്കൂ',
       fullName: 'പൂർണ്ണ പേര്',
       fullNamePlaceholder: 'നിങ്ങളുടെ പേര്',
       phoneNumber: 'ഫോൺ നമ്പർ',
       phonePlaceholder: '+91...',
-      locationLabel: 'സ്ഥലം',
+      locationLabel: 'പരമ്പരാഗത',
       locationPlaceholder: 'നഗരം, പ്രദേശം',
       message: 'സന്ദേശം',
       messagePlaceholder: 'നിങ്ങളുടെ പദ്ധതികളെക്കുറിച്ച് ഞങ്ങളോട് പറയൂ...',
@@ -392,7 +393,7 @@ const translations = {
     },
     // Footer
     footer: {
-      rights: 'എല്ലാ അവകാശങ്ങളും സംരക്ഷിതമാണ്.'
+      rights: 'All rights reserved.'
     }
   }
 };
@@ -994,7 +995,7 @@ const WashingMachineIntro = ({ show, onComplete }) => {
             textShadow: '0 4px 20px rgba(0,0,0,0.4)',
             letterSpacing: '2px'
           }}>
-            THE SALAVAI
+            NAMMUDE LAUNDRY
           </h1>
           <p className="text-2xl text-cyan-200 mb-6" style={{ fontFamily: "'Quicksand', sans-serif" }}>
             Premium Laundry Experience
@@ -1519,9 +1520,9 @@ const Navbar = () => {
             {/* Logo Section */}
             <a href="#home" className="flex items-center gap-1 group flex-shrink-0">
               <img 
-                src="/images/logo.png" 
-                alt="The Salavai Laundry" 
-                className="h-12 sm:h-14 md:h-20 w-auto object-contain"
+                src="/images/image.png" 
+                alt="Nammude Laundry" 
+                className="h-8 sm:h-10 md:h-14 w-auto object-contain"
               />
             </a>
 
@@ -1571,9 +1572,9 @@ const Navbar = () => {
           
           {/* Logo - Right */}
           <img 
-            src="/images/logo.png" 
-            alt="The Salavai Laundry" 
-            className="h-16 w-auto object-contain"
+            src="/images/image.png" 
+            alt="Nammude Laundry" 
+            className="h-12 w-auto object-contain"
           />
         </div>
       </nav>
@@ -1593,9 +1594,9 @@ const Navbar = () => {
                 {/* Menu Header */}
                 <div className="flex items-center justify-between p-4 border-b border-gray-200">
                   <img 
-                    src="/images/logo.png" 
-                    alt="The Salavai Laundry" 
-                    className="h-16 w-auto object-contain"
+                    src="/images/image.png" 
+                    alt="Nammude Laundry" 
+                    className="h-12 w-auto object-contain"
                   />
                   <button
                     onClick={() => setIsMobileMenuOpen(false)}
@@ -1661,28 +1662,28 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="relative h-[400px] md:h-screen flex items-center justify-center overflow-hidden bg-white">
+    <section id="home" className="relative min-h-[680px] md:min-h-0 md:h-screen pt-0 md:pt-0 flex items-center justify-center overflow-visible md:overflow-hidden bg-white">
       {/* Social Media Icons - Fixed Left Side */}
       <div className="fixed left-2 md:left-4 top-1/2 -translate-y-1/2 z-30 flex flex-col gap-1.5 md:gap-4 pointer-events-auto">
         <a href="https://www.facebook.com/profile.php?id=61587104255575" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors shadow-lg">
           <Facebook size={14} className="md:w-5 md:h-5" />
         </a>
-        <a href="https://wa.me/916385050882?text=Hi" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-green-500 text-white flex items-center justify-center hover:bg-green-600 transition-colors shadow-lg">
+        <a href="https://wa.me/919944328471?text=Hi" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-green-500 text-white flex items-center justify-center hover:bg-green-600 transition-colors shadow-lg">
           <MessageCircle size={14} className="md:w-5 md:h-5" />
         </a>
-        <a href="https://www.instagram.com/the_salavai_laundry/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition-colors shadow-lg">
+        <a href="https://www.instagram.com/nammude_laundry/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition-colors shadow-lg">
           <Instagram size={14} className="md:w-5 md:h-5" />
         </a>
-        <a href="https://www.linkedin.com/company/the-salavai-laundry" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-700 text-white flex items-center justify-center hover:bg-blue-800 transition-colors shadow-lg">
+        <a href="https://www.linkedin.com/company/nammude-laundry" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-700 text-white flex items-center justify-center hover:bg-blue-800 transition-colors shadow-lg">
           <Linkedin size={14} className="md:w-5 md:h-5" />
         </a>
       </div>
 
       <div className="relative z-20 max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center pointer-events-none" style={{ marginTop: '0rem' }}>
         <RevealOnScroll delay={100}>
-          <div className="mb-6 md:mb-8 flex justify-center" style={{ marginTop: '1.5rem' }}>
+          <div className="mb-6 md:mb-8 flex justify-center" style={{ marginTop: '0rem' }}>
             <img 
-              src="/images/The salavai logo transparent.png" 
+              src="/images/image.png" 
               alt="The Salavai Logo" 
               className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto object-contain"
             />
@@ -1691,7 +1692,7 @@ const Hero = () => {
 
         <RevealOnScroll delay={200}>
           <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6 md:mb-10 leading-tight drop-shadow-2xl" style={{ fontFamily: "'Arima Madurai', sans-serif", fontWeight: '900' }}>
-            <span className="text-[#c62222]">
+            <span className="text-[#c62222] font-normal">
               {language === 'en' ? (
                 <>
                   Self-Income Generating<br className="md:hidden" /> Program.
@@ -1967,8 +1968,8 @@ const WhySalavai = () => {
                   {/* First Image - Top */}
                   <div className="absolute top-0 right-0 group">
                     <img 
-                      src="/images/tamil peoples.jpeg" 
-                      alt="Tamil Peoples" 
+                      src="/images/kerala peoples.png" 
+                      alt="Kerala Peoples" 
                       className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-2xl border-8 border-white group-hover:scale-105 transition-transform duration-300 relative z-10"
                     />
                     {/* Decorative ring */}
@@ -1978,9 +1979,10 @@ const WhySalavai = () => {
                   {/* Second Image - Bottom (Overlapping) */}
                   <div className="absolute bottom-0 left-0 group">
                     <img 
-                      src="/images/kovil page.jpeg" 
+                      src="/images/kovil kerala.png" 
                       alt="Kovil Page" 
                       className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-2xl border-8 border-white group-hover:scale-105 transition-transform duration-300 relative z-10"
+                      style={{ objectPosition: 'center 92%' }}
                     />
                     {/* Decorative ring */}
                     <div className="absolute -inset-2 bg-gradient-to-br from-[#003366]/20 to-[#a50034]/20 rounded-full -z-10"></div>
@@ -2267,7 +2269,7 @@ const Franchise = () => {
   return (
     <section id="franchise" className="py-20 relative overflow-hidden z-10" style={{
       background: '#ffffff',
-      backgroundImage: 'url("/images/Tamil Nadu state map, administrative division of India_ Vector illustration_.jpg")',
+      backgroundImage: 'url("/images/kerala map.png")',
       backgroundSize: 'contain',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
@@ -2371,10 +2373,10 @@ const Contact = () => {
     try {
       // Send email using EmailJS
       const result = await emailjs.sendForm(
-        'service_bf6pqlj',      // Service ID
-        'template_p1ceoks',     // Template ID
+        'service_1v02avq',      // Service ID
+        'template_wddipzw',     // Template ID
         e.target,               // Form element
-        'IhHKCGQTyJL_jY-w6'      // Public API Key
+        'hkbYJss68FSRoHoqB'      // Public API Key
       );
 
       console.log('EmailJS Success:', result.text);
@@ -2414,14 +2416,14 @@ const Contact = () => {
                     <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-sm"><Phone size={20} className="text-[#A50034]" /></div>
                     <div>
                       <p className="text-xs text-slate-500 uppercase font-bold font-heading">{t.contact.phone}</p>
-                      <span className="font-medium">+91 63850 50882</span>
+                      <span className="font-medium">+91 9944328471</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-sm"><Mail size={20} className="text-[#A50034]" /></div>
                     <div>
                       <p className="text-xs text-slate-500 uppercase font-bold font-heading">{t.contact.email}</p>
-                      <span className="font-medium">contact@thesalavailaundry.com</span>
+                      <span className="font-medium">contact@nammudelaundry.com</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -2526,13 +2528,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center">
           <img 
-            src="/images/The salavai logo transparent.png" 
-            alt="Salavai Laundry Logo" 
+            src="/images/image.png" 
+            alt="Nammude Laundry Logo" 
             className="h-12 w-auto"
           />
         </div>
         <div className="text-sm">
-          © {new Date().getFullYear()} {t.hero.brand}. {t.footer.rights}
+          © {new Date().getFullYear()} NAMMUDE LAUNDRY. {t.footer.rights}
         </div>
       </div>
     </footer>
