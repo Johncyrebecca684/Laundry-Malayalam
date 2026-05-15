@@ -1,0 +1,15 @@
+# Bluehost-safe .htaccess for React SPA
+# Keep this minimal to avoid 500 errors from unsupported directives.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files/folders directly (assets, php files, etc.)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # SPA fallback
+  RewriteRule ^ index.html [L]
+</IfModule>
