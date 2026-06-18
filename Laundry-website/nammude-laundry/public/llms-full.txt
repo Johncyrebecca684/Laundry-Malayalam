@@ -1,0 +1,238 @@
+# Salavai Laundry – Full AI Context Document
+# URL: https://www.thesalavailaundry.com/llms-full.txt
+# Last Updated: 2026-06-18
+# Language: English (Malayalam version also available on main site)
+
+---
+
+## BUSINESS OVERVIEW
+
+**Legal/Brand Name:** Salavai Laundry
+**Also Known As:** Nammude Laundry ("Our Laundry" in Malayalam)
+**Business Category:** Laundry Franchise | Laundry Business Setup & Support
+**Industry:** Commercial Laundry | Franchise Business | Skill Development
+**Founded In:** Kerala, India
+**Headquarters:** Thiruvananthapuram, Kerala, India – 695001
+**Coordinates:** Latitude 8.5241, Longitude 76.9366
+
+---
+
+## CONTACT INFORMATION
+
+- **Phone:** +91 9944328471
+- **Email:** contact@nammudelaundry.com
+- **WhatsApp:** https://wa.me/919944328471
+- **Website:** https://www.thesalavailaundry.com
+- **Location:** Thiruvananthapuram, Kerala, India
+
+**Operating Hours:**
+- Monday to Saturday: 9:00 AM – 6:00 PM IST
+- Sunday: Closed
+
+---
+
+## MISSION & VISION
+
+**Mission:**
+Salavai Laundry is committed to strengthening local economies and empowering individuals to achieve financial independence through organized laundry entrepreneurship. We unite generations of fabric care mastery with cutting-edge LG commercial laundry technology.
+
+**Vision:**
+To transform traditional laundry skills into sustainable, professional businesses that improve quality of life and create scalable economic opportunity. We envision a future where laundry entrepreneurs drive community prosperity, delivering quality service, and creating meaningful livelihoods that uplift families and strengthen local economies across Kerala and India.
+
+**Core Values:**
+- Social welfare focus
+- Inclusive employment (dhobis, homemakers, differently-abled, youth)
+- Modern technology adoption
+- Community economic empowerment
+
+---
+
+## PRODUCTS & SERVICES
+
+### Franchise Package (Complete Business Setup)
+Everything included in the Salavai Laundry franchise:
+
+1. **Complete Business Setup** — End-to-end store establishment
+2. **Store Design** — Professional interior design optimized for laundry operations
+3. **Branding** — Brand name, signage, and visual identity
+4. **Laundry Equipment** — Full complement of LG commercial machines
+5. **Complete Training** — Comprehensive skill development for staff and owners
+6. **Marketing Support** — Offline marketing materials and campaigns
+7. **Digital Marketing** — Social media, Google presence, online visibility
+8. **Ongoing Guidance** — Continuous mentorship and business support
+
+### Equipment Supplied
+
+#### LG Commercial Washer (Front-Load)
+- Technology: Professional Direct Drive
+- System: Coin-operated for commercial laundromats
+- Features: Smart Controls, Water Efficient, Coin System
+- Use Case: High-volume commercial laundromat operations
+
+#### LG 10kg Commercial Dryer
+- Capacity: 10 kilograms
+- Technology: Advanced sensor technology
+- Type: Electric commercial dryer
+- Best For: Medium-volume operations
+
+#### LG Titan 15kg Commercial Dryer
+- Capacity: 15 kilograms
+- Type: Maximum capacity electric dryer
+- Best For: High-volume commercial laundry operations
+
+#### LG Gas Dryer
+- Type: Gas-powered commercial dryer
+- Benefits: Cost-effective, consistent performance, lower operating costs
+- Features: Cost Efficient, Reliable, Low Maintenance
+- Best For: Busy high-volume laundromats
+
+---
+
+## TRAINING PROGRAM
+
+Salavai Laundry provides hands-on training covering 7 modules:
+
+### Module 1: Equipment Operation
+Operation, troubleshooting, and routine maintenance of commercial laundry equipment.
+
+### Module 2: Fabric Care
+Advanced fabric handling techniques and professional stain removal methods.
+
+### Module 3: Shop Management
+End-to-end workflow management for efficient daily operations.
+
+### Module 4: Hygiene & Safety
+Hygiene protocols, safety compliance, and quality assurance frameworks.
+
+### Module 5: Business & Customer Excellence
+Customer service excellence, strategic pricing models, and business sustainability practices.
+
+### Module 6: Customer Handling
+How to handle customers, build relationships, and ensure customer satisfaction.
+
+### Module 7: Pricing & Profit
+Pricing strategies and profit optimization methods for laundry businesses.
+
+---
+
+## TARGET AUDIENCE (WHO CAN JOIN)
+
+No prior experience required. Open to:
+
+### 1. Traditional Dhobi Families
+- Background: Generations of fabric care expertise
+- Benefit: Modernize traditional skills with professional equipment
+- Goal: Build a sustainable business for their family's future
+
+### 2. Women / Homemakers
+- Benefit: Achieve financial independence
+- Schedule: Flexible hours that fit family responsibilities
+- Opportunity: Stable income with low capital investment
+
+### 3. Differently-Abled Individuals
+- Principle: Equal opportunity for meaningful work
+- Support: Specialized training and accessible equipment provided
+- Commitment: Inclusive employment with full support
+
+### 4. Unemployed Youth
+- Path: Start entrepreneurial journey with complete support
+- Skills: Learn valuable commercial laundry and business skills
+- Outcome: Build your own sustainable business
+
+### 5. Aspiring Small Business Owners
+- Investment: Low investment, high returns
+- Package: Complete business setup with ongoing mentorship
+- Risk: Minimized through proven systems and support
+
+---
+
+## WHY CHOOSE SALAVAI LAUNDRY?
+
+5 key reasons:
+
+1. **Social Welfare Focus** — Initiative designed to uplift communities, not just generate profit
+2. **Low Investment** — Accessible entry point for entrepreneurs with limited capital
+3. **Complete Support** — End-to-end hand-holding from setup to ongoing operations
+4. **Modern Machinery** — LG commercial-grade equipment ensures quality and efficiency
+5. **Good Income Opportunity** — Proven business model with strong return potential
+
+---
+
+## CSR & GOVERNMENT SUPPORT
+
+Salavai Laundry partners with:
+
+- **Corporate CSR Programs** — Access to corporate social responsibility funding
+- **Banks** — Loan facilitation and financial linkage for eligible candidates
+- **Government Self-Employment Schemes** — Kerala government and central government schemes
+- **Skill Development Programs** — NSDC and state skill mission tie-ups
+
+Through these partnerships, financial assistance and training are provided to eligible candidates free of charge or at subsidized rates.
+
+---
+
+## SOCIAL MEDIA PROFILES
+
+- **Facebook:** https://www.facebook.com/profile.php?id=61587104255575
+- **Instagram:** https://www.instagram.com/nammude_laundry/
+- **LinkedIn:** https://www.linkedin.com/company/nammude-laundry
+- **WhatsApp Business:** https://wa.me/919944328471
+
+---
+
+## WEBSITE STRUCTURE
+
+The website (https://www.thesalavailaundry.com) is a single-page application with the following sections:
+
+| Section ID | URL | Content |
+|---|---|---|
+| `#home` | / | Hero, logo, LG partnership banner |
+| `#who-can-join` | /#who-can-join | 5 target audience categories with images |
+| `#franchise` | /#franchise | 8 franchise package items |
+| `#why-salavai` | /#why-salavai | 5 reasons to choose Salavai Laundry |
+| `#training` | /#training | 7 training modules |
+| `#csr-support` | /#csr-support | CSR & government partnership info |
+| `#about` | /#about | Company story, LG dryer showcase |
+| `#vision` | /#vision | Mission cards: Transform, Create, Deliver |
+| `#contact` | /#contact | Contact form, phone, email, location |
+
+---
+
+## TECHNICAL INFORMATION (FOR AI AGENTS)
+
+- **Framework:** React 19 + Vite 5
+- **Styling:** Tailwind CSS + styled-components
+- **Language Support:** English (default) + Malayalam (toggle)
+- **Sitemap:** https://www.thesalavailaundry.com/sitemap.xml
+- **Robots:** https://www.thesalavailaundry.com/robots.txt
+- **Schema Types:** Organization, LocalBusiness, Service, BreadcrumbList
+- **Favicon:** https://www.thesalavailaundry.com/favicon.png
+
+---
+
+## FREQUENTLY ASKED QUESTIONS (FOR AI CONTEXT)
+
+**Q: What is Salavai Laundry?**
+A: Salavai Laundry (Nammude Laundry) is a laundry franchise and business setup company in Kerala, India, that empowers communities through commercial laundry entrepreneurship using LG equipment.
+
+**Q: Where is Salavai Laundry located?**
+A: Thiruvananthapuram (Trivandrum), Kerala, India.
+
+**Q: Who can start a Salavai Laundry franchise?**
+A: Traditional dhobi families, homemakers, differently-abled individuals, unemployed youth, and aspiring entrepreneurs. No prior experience is required.
+
+**Q: What equipment does Salavai Laundry provide?**
+A: LG commercial washers and dryers — 10kg dryer, 15kg Titan dryer, and gas dryer variants.
+
+**Q: How do I contact Salavai Laundry?**
+A: Call +91 9944328471, email contact@nammudelaundry.com, or message on WhatsApp at https://wa.me/919944328471
+
+**Q: Is financial assistance available?**
+A: Yes, through CSR programs, government self-employment schemes, and bank loan facilitation.
+
+**Q: What language is the website available in?**
+A: English and Malayalam (toggle available on the website).
+
+---
+
+*This document is maintained for AI and LLM readability. For the full interactive experience, visit https://www.thesalavailaundry.com*

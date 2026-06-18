@@ -8,6 +8,7 @@ import {
 import emailjs from '@emailjs/browser';
 import Card from './components/Card';
 import TrainingCard from './components/TrainingCard';
+import SEOHead from './components/SEOHead';
 
 /**
  * ------------------------------------------------------------------
@@ -88,14 +89,14 @@ const translations = {
     },
     // Hero Section
     hero: {
-      badge: 'Premium Laundromat Franchise',
+      badge: 'Self Income Generating Program',
       title1: 'Transform Your Future.',
       title2: 'Build a Thriving Business.',
       subtitle: 'Empowering traditional dhobis, homemakers, and entrepreneurs with state-of-the-art technology and sustainable business models.',
       cta: 'Start Your Journey',
       cta2: 'Partner With Us',
       brand: 'NAMMUDE LAUNDRY',
-      tagline: 'Premium Laundry',
+      tagline: 'Laundry Business',
       programTitle: 'Self-Income Generating Program.'
     },
     // About Section
@@ -251,7 +252,7 @@ const translations = {
     },
     // Hero Section
     hero: {
-      badge: 'പ്രീമിയം ലോണ്ട്രി ഫ്രാഞ്ചൈസി',
+      badge: 'സ്വയം വരുമാനം സൃഷ്ടിക്കുന്ന പദ്ധതി',
       title1: 'നമ്മുടെ ലോണ്ട്രി',
       title2: 'ഒരു ബിസിനസ് - ഒരു ജീവിതമാറ്റം',
       subtitle: 'പരമ്പരാഗത ധോബി കുടുംബങ്ങളെയും ഗൃഹണികളെയും സംരംഭകരെയും ആധുനിക ലോണ്ട്രി സാങ്കേതികവിദ്യയിലൂടെ സ്ഥിര വരുമാനത്തിലേക്ക് നയിക്കുന്നു.',
@@ -998,7 +999,7 @@ const WashingMachineIntro = ({ show, onComplete }) => {
             NAMMUDE LAUNDRY
           </h1>
           <p className="text-2xl text-cyan-200 mb-6" style={{ fontFamily: "'Quicksand', sans-serif" }}>
-            Premium Laundry Experience
+            Self Income Generating Platform
           </p>
           <div className="flex justify-center gap-3">
             <div className="w-3 h-3 bg-cyan-300 rounded-full animate-bounce shadow-lg"></div>
@@ -1662,20 +1663,20 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-[680px] md:min-h-0 md:h-screen pt-0 md:pt-0 flex items-center justify-center overflow-visible md:overflow-hidden bg-white">
+    <section id="home" className="relative min-h-[680px] md:min-h-0 md:h-screen pt-0 md:pt-0 flex items-center justify-center overflow-visible md:overflow-hidden bg-white" aria-label="Hero section – Salavai Laundry franchise overview">
       {/* Social Media Icons - Fixed Left Side */}
-      <div className="fixed left-2 md:left-4 top-1/2 -translate-y-1/2 z-30 flex flex-col gap-1.5 md:gap-4 pointer-events-auto">
-        <a href="https://www.facebook.com/profile.php?id=61587104255575" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors shadow-lg">
-          <Facebook size={14} className="md:w-5 md:h-5" />
+      <div className="fixed left-2 md:left-4 top-1/2 -translate-y-1/2 z-30 flex flex-col gap-1.5 md:gap-4 pointer-events-auto" role="complementary" aria-label="Social media links">
+        <a href="https://www.facebook.com/profile.php?id=61587104255575" target="_blank" rel="noopener noreferrer" aria-label="Follow Salavai Laundry on Facebook" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors shadow-lg">
+          <Facebook size={14} className="md:w-5 md:h-5" aria-hidden="true" />
         </a>
-        <a href="https://wa.me/919944328471?text=Hi" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-green-500 text-white flex items-center justify-center hover:bg-green-600 transition-colors shadow-lg">
-          <MessageCircle size={14} className="md:w-5 md:h-5" />
+        <a href="https://wa.me/919944328471?text=Hi" target="_blank" rel="noopener noreferrer" aria-label="Contact Salavai Laundry on WhatsApp" className="w-8 h-8 md:w-12 md:h-12 rounded bg-green-500 text-white flex items-center justify-center hover:bg-green-600 transition-colors shadow-lg">
+          <MessageCircle size={14} className="md:w-5 md:h-5" aria-hidden="true" />
         </a>
-        <a href="https://www.instagram.com/nammude_laundry/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition-colors shadow-lg">
-          <Instagram size={14} className="md:w-5 md:h-5" />
+        <a href="https://www.instagram.com/nammude_laundry/" target="_blank" rel="noopener noreferrer" aria-label="Follow Salavai Laundry on Instagram" className="w-8 h-8 md:w-12 md:h-12 rounded bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition-colors shadow-lg">
+          <Instagram size={14} className="md:w-5 md:h-5" aria-hidden="true" />
         </a>
-        <a href="https://www.linkedin.com/company/nammude-laundry" target="_blank" rel="noopener noreferrer" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-700 text-white flex items-center justify-center hover:bg-blue-800 transition-colors shadow-lg">
-          <Linkedin size={14} className="md:w-5 md:h-5" />
+        <a href="https://www.linkedin.com/company/nammude-laundry" target="_blank" rel="noopener noreferrer" aria-label="Connect with Salavai Laundry on LinkedIn" className="w-8 h-8 md:w-12 md:h-12 rounded bg-blue-700 text-white flex items-center justify-center hover:bg-blue-800 transition-colors shadow-lg">
+          <Linkedin size={14} className="md:w-5 md:h-5" aria-hidden="true" />
         </a>
       </div>
 
@@ -1684,8 +1685,10 @@ const Hero = () => {
           <div className="mb-6 md:mb-8 flex justify-center" style={{ marginTop: '0rem' }}>
             <img 
               src="/images/image.png" 
-              alt="The Salavai Logo" 
+              alt="Salavai Laundry – Nammude Laundry official logo" 
               className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto object-contain"
+              width="384"
+              height="192"
             />
           </div>
         </RevealOnScroll>
@@ -1714,7 +1717,7 @@ const Hero = () => {
           <div className="flex justify-center mb-6 md:mb-10">
             <img 
               src="/images/lg tr.png" 
-              alt="LG Logo" 
+              alt="LG Electronics – Official equipment partner of Salavai Laundry" 
               className="h-16 sm:h-22 md:h-28 lg:h-32 w-auto object-contain"
               loading="eager"
               fetchpriority="high"
@@ -1787,7 +1790,7 @@ const Hero = () => {
 const About = () => {
   const { t } = useLanguage();
   return (
-    <section id="about" className="py-20 bg-white relative overflow-hidden z-10">
+    <section id="about" className="py-20 bg-white relative overflow-hidden z-10" aria-labelledby="about-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="grid md:grid-cols-2 gap-16 items-center min-h-[800px]">
           <RevealOnScroll className="relative order-2 md:order-1">
@@ -1848,10 +1851,10 @@ const About = () => {
 
           <div className="order-1 md:order-2 space-y-8">
             <RevealOnScroll delay={200}>
-              <h2 className="text-sm font-bold text-[#A50034] uppercase tracking-widest mb-2 font-heading">{t.about.subtitle}</h2>
-              <h3 className="text-4xl md:text-5xl font-bold text-[#003366] leading-tight mb-6 font-heading">
+              <p className="text-sm font-bold text-[#A50034] uppercase tracking-widest mb-2 font-heading">{t.about.subtitle}</p>
+              <h2 id="about-heading" className="text-4xl md:text-5xl font-bold text-[#003366] leading-tight mb-6 font-heading">
                 {t.about.title} <span className="text-[#003366]">{t.about.tradition}</span> {t.about.meets} <span className="text-[#003366]">{t.about.innovation}</span>.
-              </h3>
+              </h2>
 
               <div className="space-y-6 text-lg text-[#003366] leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                 <p>
@@ -1875,11 +1878,11 @@ const About = () => {
 const Vision = () => {
   const { t } = useLanguage();
   return (
-    <section id="vision" className="py-20 relative z-10 overflow-hidden">
+    <section id="vision" className="py-20 relative z-10 overflow-hidden" aria-labelledby="vision-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#003366]">{t.vision.title}</h2>
+            <h2 id="vision-heading" className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#003366]">{t.vision.title}</h2>
             <p className="max-w-3xl mx-auto text-lg text-slate-600 leading-relaxed mb-4">{t.vision.p1}</p>
             <p className="max-w-3xl mx-auto text-lg text-slate-600 leading-relaxed">{t.vision.p2}</p>
           </div>
@@ -1928,7 +1931,7 @@ const WhySalavai = () => {
   ];
 
   return (
-    <section id="why-salavai" className="py-20 relative overflow-hidden z-10">
+    <section id="why-salavai" className="py-20 relative overflow-hidden z-10" aria-labelledby="why-salavai-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Heading and Points */}
@@ -1936,9 +1939,9 @@ const WhySalavai = () => {
             <div className="flex flex-col lg:flex-row items-center gap-12 relative z-20">
               {/* Left Side - Content */}
               <div className="flex-1 w-full lg:w-auto">
-                <h1 className="text-4xl md:text-6xl font-bold font-heading text-[#a50034] leading-tight mb-8 text-center lg:text-left" style={{ position: 'relative', zIndex: 20 }}>
+                <h2 id="why-salavai-heading" className="text-4xl md:text-6xl font-bold font-heading text-[#a50034] leading-tight mb-8 text-center lg:text-left" style={{ position: 'relative', zIndex: 20 }}>
                   {t.whySalavai.title}
-                </h1>
+                </h2>
                 
                 {/* Icon-based List */}
                 <div className="space-y-2 flex-1">
@@ -1969,8 +1972,11 @@ const WhySalavai = () => {
                   <div className="absolute top-0 right-0 group">
                     <img 
                       src="/images/kerala peoples.png" 
-                      alt="Kerala Peoples" 
+                      alt="Diverse Kerala community members benefiting from Salavai Laundry franchise program" 
                       className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-2xl border-8 border-white group-hover:scale-105 transition-transform duration-300 relative z-10"
+                      loading="lazy"
+                      width="288"
+                      height="288"
                     />
                     {/* Decorative ring */}
                     <div className="absolute -inset-2 bg-gradient-to-br from-[#a50034]/20 to-[#003366]/20 rounded-full -z-10"></div>
@@ -1980,9 +1986,12 @@ const WhySalavai = () => {
                   <div className="absolute bottom-0 left-0 group">
                     <img 
                       src="/images/kovil kerala.png" 
-                      alt="Kovil Page" 
+                      alt="Kerala cultural landmark representing Salavai Laundry's community roots" 
                       className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-2xl border-8 border-white group-hover:scale-105 transition-transform duration-300 relative z-10"
                       style={{ objectPosition: 'center 92%' }}
+                      loading="lazy"
+                      width="288"
+                      height="288"
                     />
                     {/* Decorative ring */}
                     <div className="absolute -inset-2 bg-gradient-to-br from-[#003366]/20 to-[#a50034]/20 rounded-full -z-10"></div>
@@ -2044,11 +2053,11 @@ const Training = () => {
   ];
 
   return (
-    <section id="training" className="py-20 bg-white relative overflow-hidden z-10">
+    <section id="training" className="py-20 bg-white relative overflow-hidden z-10" aria-labelledby="training-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-slate-900 pt-10">
         <RevealOnScroll>
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#003366]">{t.training.title}</h2>
+            <h2 id="training-heading" className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#003366]">{t.training.title}</h2>
             <p className="text-[#A50034] text-lg max-w-3xl mx-auto leading-relaxed">
               {t.training.subtitle}
             </p>
@@ -2085,7 +2094,7 @@ const WhoCanJoin = () => {
   ];
 
   return (
-    <section id="who-can-join" className="py-20 relative overflow-hidden z-10">
+    <section id="who-can-join" className="py-20 relative overflow-hidden z-10" aria-labelledby="who-can-join-heading">
       <style>{`
         .who-cards-container {
           display: flex;
@@ -2184,7 +2193,7 @@ const WhoCanJoin = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#a50034]">{t.whoCanJoin.title}</h2>
+            <h2 id="who-can-join-heading" className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#a50034]">{t.whoCanJoin.title}</h2>
             <p className="text-[#a50034] text-2xl md:text-3xl font-semibold max-w-3xl mx-auto leading-relaxed flex items-center justify-center gap-3" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               <ArrowRight size={32} />
               {t.whoCanJoin.subtitle}
@@ -2267,7 +2276,7 @@ const Franchise = () => {
   ];
 
   return (
-    <section id="franchise" className="py-20 relative overflow-hidden z-10" style={{
+    <section id="franchise" className="py-20 relative overflow-hidden z-10" aria-labelledby="franchise-heading" style={{
       background: '#ffffff',
       backgroundImage: 'url("/images/kerala map.png")',
       backgroundSize: 'contain',
@@ -2286,6 +2295,7 @@ const Franchise = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative" style={{ zIndex: 2 }}>
         <RevealOnScroll>
           <div className="text-center mb-16">
+            <h2 id="franchise-heading" className="text-3xl md:text-5xl font-bold mb-4 font-heading text-[#003366] sr-only">{t.franchise.title}</h2>
             <p className="text-[#c62222] text-3xl md:text-4xl font-bold max-w-3xl mx-auto leading-relaxed">
               {t.franchise.subtitle}
             </p>
@@ -2322,11 +2332,11 @@ const CSRSupport = () => {
   ];
 
   return (
-    <section id="csr-support" className="py-20 relative overflow-hidden z-10">
+    <section id="csr-support" className="py-20 relative overflow-hidden z-10" aria-labelledby="csr-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#047857]">{t.csrSupport.title}</h2>
+            <h2 id="csr-heading" className="text-3xl md:text-5xl font-bold mb-6 font-heading text-[#047857]">{t.csrSupport.title}</h2>
             <p className="text-[#c62222] text-3xl md:text-4xl font-semibold max-w-3xl mx-auto leading-relaxed mb-8">
               {t.csrSupport.subtitle}
             </p>
@@ -2391,7 +2401,7 @@ const Contact = () => {
   };
   
   return (
-    <section id="contact" className="py-20 relative z-10 overflow-hidden bg-white">
+    <section id="contact" className="py-20 relative z-10 overflow-hidden bg-white" aria-labelledby="contact-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
           <div className="bg-white rounded-[2rem] shadow-2xl overflow-hidden grid lg:grid-cols-5 border border-slate-100">
@@ -2408,7 +2418,7 @@ const Contact = () => {
               </div>
 
               <div className="relative z-10">
-                <h3 className="text-3xl font-bold mb-6 font-heading text-[#003366]">{t.contact.title}</h3>
+                <h2 id="contact-heading" className="text-3xl font-bold mb-6 font-heading text-[#003366]">{t.contact.title}</h2>
                 <p className="text-slate-600 mb-10">{t.contact.subtitle}</p>
 
                 <div className="space-y-8">
@@ -2524,17 +2534,20 @@ const Contact = () => {
 const Footer = () => {
   const { t } = useLanguage();
   return (
-    <footer className="bg-white text-slate-600 py-12 border-t border-slate-200 z-10 relative">
+    <footer className="bg-white text-slate-600 py-12 border-t border-slate-200 z-10 relative" role="contentinfo" aria-label="Salavai Laundry footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center">
           <img 
             src="/images/image.png" 
-            alt="Nammude Laundry Logo" 
+            alt="Salavai Laundry – Nammude Laundry official logo" 
             className="h-12 w-auto"
+            loading="lazy"
+            width="96"
+            height="48"
           />
         </div>
         <div className="text-sm">
-          © {new Date().getFullYear()} NAMMUDE LAUNDRY. {t.footer.rights}
+          © {new Date().getFullYear()} SALAVAI LAUNDRY – NAMMUDE LAUNDRY. {t.footer.rights}
         </div>
       </div>
     </footer>
@@ -2548,21 +2561,25 @@ export default function App() {
     <ErrorBoundary>
       <LanguageProvider>
         <div className="antialiased text-slate-900 bg-white selection:bg-[#A50034] selection:text-white relative">
+          {/* SEO: Inject all meta tags, Open Graph, Twitter Cards, and JSON-LD structured data */}
+          <SEOHead section="home" />
           <GlobalStyles />
           <Navbar />
-          <div className="pt-20">
-            <ScrollProgress />
-            <Hero />
-            <WhoCanJoin />
-            <Franchise />
-            <WhySalavai />
-            <Training />
-            <CSRSupport />
-            <About />
-            <Vision />
-            <Contact />
-            <Footer />
-          </div>
+          <main id="main-content" role="main" aria-label="Salavai Laundry – main content">
+            <div className="pt-20">
+              <ScrollProgress />
+              <Hero />
+              <WhoCanJoin />
+              <Franchise />
+              <WhySalavai />
+              <Training />
+              <CSRSupport />
+              <About />
+              <Vision />
+              <Contact />
+            </div>
+          </main>
+          <Footer />
         </div>
       </LanguageProvider>
     </ErrorBoundary>
