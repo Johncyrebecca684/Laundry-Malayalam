@@ -60,7 +60,7 @@ AddHandler application/x-httpd-ea-php81 .php
 3. Upload the new `.htaccess` from `dist/` folder
 
 ### 3. **Test PHP Directly**
-Visit: `https://thesalavailaundry.com/test.php`
+Visit: `https://thenammudelaundry.com/test.php`
 
 **Expected Result:**
 ```json
@@ -101,7 +101,7 @@ Bluehost uses this format: `application/x-httpd-ea-phpXX`
 ## 🆘 Still Not Working?
 
 ### Contact Bluehost Support:
-"My PHP files at thesalavailaundry.com are returning source code with Content-Type: application/x-httpd-ea-php56. I need PHP 7.4+ enabled and the correct AddHandler in .htaccess. Can you help verify my PHP configuration?"
+"My PHP files at thenammudelaundry.com are returning source code with Content-Type: application/x-httpd-ea-php56. I need PHP 7.4+ enabled and the correct AddHandler in .htaccess. Can you help verify my PHP configuration?"
 
 ---
 

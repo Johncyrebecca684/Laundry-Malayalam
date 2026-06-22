@@ -1,6 +1,6 @@
 # ============================================================
-# robots.txt — Salavai Laundry (Nammude Laundry)
-# Website: https://www.thesalavailaundry.com
+# robots.txt — Nammude Laundry
+# Website: https://www.thenammudelaundry.com
 # ============================================================
 
 # ── Default: Allow all crawlers ──────────────────────────────
@@ -10,10 +10,10 @@ Disallow: /api/
 Disallow: /*.php$
 
 # ── Sitemap ──────────────────────────────────────────────────
-Sitemap: https://www.thesalavailaundry.com/sitemap.xml
+Sitemap: https://www.thenammudelaundry.com/sitemap.xml
 
 # ── LLMs.txt (AI content summary) ───────────────────────────
-# AI agents can read: https://www.thesalavailaundry.com/llms.txt
+# AI agents can read: https://www.thenammudelaundry.com/llms.txt
 
 # ============================================================
 # SEARCH ENGINE CRAWLERS
