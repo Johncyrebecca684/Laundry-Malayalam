@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef, createContext, useContext, Component } from 'react';
+import React, { useState, useEffect, useRef, createContext, useContext, Component } from 'react';
 import {
   Menu, X, Phone, Mail, MapPin, Facebook, Instagram, Twitter, MessageSquare,
   Waves, Shirt, Wrench, GraduationCap, ChevronRight, CheckCircle,
@@ -266,7 +266,7 @@ const translations = {
     about: {
       subtitle: 'ഞങ്ങളേക്കുറിച്ച്',
       title: 'എവിടെ',
-      tradition: 'പരമ്പര',
+      tradition: 'പരമ്പരാഗത',
       meets: 'കണ്ടുമുട്ടുന്നത്',
       innovation: 'പുതുമ',
       p1: 'കൗശലവും അവസരവും ഒന്നിക്കുന്നിടത്താണ് സ്ഥിരമായ ജീവിതോപാധി. ഇതാണ് നമ്മുടെ ലോണ്ട്രിയുടെ അടിസ്ഥാനം.',
