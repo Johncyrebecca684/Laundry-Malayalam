@@ -56,7 +56,7 @@ class ErrorBoundary extends Component {
  */
 const LanguageContext = createContext({
   language: 'en',
-  toggleLanguage: () => {},
+  toggleLanguage: () => { },
   t: {}
 });
 
@@ -187,6 +187,26 @@ const translations = {
       category5: 'Aspiring small business owners',
       desc5: 'Low investment, high returns opportunity. Complete business setup with ongoing mentorship and support.'
     },
+    // Partner Program Section
+    partnerProgram: {
+      badge: 'THE NAMMUDE LAUNDRY BUSINESS PARTNER PROGRAM',
+      tagline: 'Laundry Services | Training & Incubation Centre',
+      title: "More Than a Partnership – It's Your Path to Entrepreneurship.",
+      description: "Every successful business begins with the right support. That's exactly what the Nammude Laundry Business Partner Program is designed to provide—everything you need to start, operate, and grow a professional laundry business.",
+      whyTitle: 'Why Partner With Us?',
+      points: [
+        'Zero Franchise Fee',
+        'No Royalty',
+        'Own Your Business',
+        'Keep 100% of Your Profits',
+        'Complete Business Setup',
+        'Hands-On Practical Training',
+        'Standard Operating Systems & Processes',
+        'Technical & After-Sales Support',
+        'Marketing & Business Guidance',
+        'Unlimited Growth Opportunities'
+      ]
+    },
     // Franchise Section
     franchise: {
       title: 'Franchise',
@@ -209,6 +229,13 @@ const translations = {
       partner3: 'Government self-employment schemes',
       partner4: 'Skill development programs',
       description: 'Through these partnerships, financial assistance and training are provided to eligible candidates'
+    },
+    // Social Enterprise Empowerment Section
+    socialEnterprise: {
+      title: 'The Nammude Laundry: a self-income generating program.',
+      description: 'We are a commercial laundry social enterprise built to empower economically backward communities through self-income generation and help them attain financial independence.',
+      quote: 'Because everyone deserves the chance to build their own success story!',
+      tagline: 'The revolution begins today.'
     },
     // Contact Section
     contact: {
@@ -350,6 +377,26 @@ const translations = {
       category5: 'ചെറിയ ബിസിനസ് തുടങ്ങാൻ ആഗ്രഹിക്കുന്നവർ',
       desc5: 'കുറഞ്ഞ നിക്ഷേപത്തിൽ ഉയർന്ന വരുമാനം. തുടർച്ചയായ മാർഗനിർദ്ദേശത്തോടൊപ്പം പൂർണ്ണ ബിസിനസ് സജ്ജീകരണം.'
     },
+    // Partner Program Section
+    partnerProgram: {
+      badge: 'നമ്മുടെ ലോണ്ട്രി ബിസിനസ്സ് പാർട്ണർ പ്രോഗ്രാം',
+      tagline: 'ലോണ്ട്രി സേവനങ്ങൾ | ട്രെയിനിംഗ് & ഇൻകുബേഷൻ സെന്റർ',
+      title: 'ഒരു പങ്കാളിത്തത്തേക്കാൾ ഉപരി - സംരംഭകത്വത്തിലേക്കുള്ള നിങ്ങളുടെ പാത.',
+      description: 'ഓരോ വിജയകരമായ ബിസിനസ്സും ആരംഭിക്കുന്നത് ശരിയായ പിന്തുണയോടെയാണ്. ഒരു പ്രൊഫഷണൽ ലോണ്ട്രി ബിസിനസ്സ് ആരംഭിക്കുന്നതിനും പ്രവർത്തിപ്പിക്കുന്നതിനും വളർത്തുന്നതിനും ആവശ്യമായതെല്ലാം നൽകുന്നതിനാണ് നമ്മുടെ ലോണ്ട്രി ബിസിനസ്സ് പാർട്ണർ പ്രോഗ്രാം രൂപകൽപ്പന ചെയ്തിരിക്കുന്നത്.',
+      whyTitle: 'എന്തുകൊണ്ട് ഞങ്ങളുമായി പങ്കാളിയാകണം?',
+      points: [
+        'സീറോ ഫ്രാഞ്ചൈസി ഫീസ്',
+        'റോയൽറ്റി ഇല്ല',
+        'സ്വന്തം ബിസിനസ്സ്',
+        'ലാഭത്തിന്റെ 100% നിങ്ങളുടേത്',
+        'പൂർണ്ണ ബിസിനസ്സ് സജ്ജീകരണം',
+        'പ്രായോഗിക പരിശീലനം',
+        'സ്റ്റാൻഡേർഡ് ഓപ്പറേറ്റിംഗ് സിസ്റ്റങ്ങളും പ്രക്രിയകളും',
+        'സാങ്കേതിക & വിൽപ്പനാനന്തര പിന്തുണ',
+        'മാർക്കറ്റിംഗ് & ബിസിനസ്സ് മാർഗ്ഗനിർദ്ദേശം',
+        'അപരിമിതമായ വളർച്ചാ അവസരങ്ങൾ'
+      ]
+    },
     // Franchise Section
     franchise: {
       title: 'ഫ്രാഞ്ചൈസി',
@@ -372,6 +419,13 @@ const translations = {
       partner3: 'സർക്കാർ സ്വയംതൊഴിൽ പദ്ധതികൾ',
       partner4: 'കഴിവ് വികസന പദ്ധതികൾ',
       description: 'ഇവ വഴി അർഹരായവർക്ക് ധനസഹായവും പരിശീലനവും ലഭ്യമാക്കുന്നു'
+    },
+    // Social Enterprise Empowerment Section
+    socialEnterprise: {
+      title: 'നമ്മുടെ ലോണ്ട്രി: സ്വയം വരുമാനം സൃഷ്ടിക്കുന്ന പദ്ധതി.',
+      description: 'സാമ്പത്തികമായി പിന്നാക്കം നിൽക്കുന്ന സമൂഹങ്ങളെ സ്വയം വരുമാന ഉൽപ്പാദനത്തിലൂടെ ശാക്തീകരിക്കുന്നതിനും സാമ്പത്തിക സ്വാതന്ത്ര്യം നേടുന്നതിനും വേണ്ടി കെട്ടിപ്പടുത്തിട്ടുള്ള ഒരു കൊമേഴ്സ്യൽ ലോണ്ട്രി സോഷ്യൽ എന്റർപ്രൈസ് ആണ് ഞങ്ങൾ.',
+      quote: 'കാരണം ഏവർക്കും അവരവരുടെ വിജയഗാഥ പടുത്തുയർത്താൻ അവസരം അർഹതപ്പെട്ടതാണ്!',
+      tagline: 'വിപ്ലവം ഇന്നുമുതൽ ആരംഭിക്കുന്നു.'
     },
     // Contact Section
     contact: {
@@ -1122,7 +1176,7 @@ const FloatingBubbles = () => {
  */
 const FloatingLaundryIcons = () => {
   const [icons, setIcons] = useState([]);
-  
+
   useEffect(() => {
     const iconTypes = [Droplets, Waves, Shirt, Sparkles];
     const newIcons = Array.from({ length: 20 }).map((_, i) => ({
@@ -1520,9 +1574,9 @@ const Navbar = () => {
           <div className="flex items-center justify-between gap-2 py-0.5 md:py-1">
             {/* Logo Section */}
             <a href="#home" className="flex items-center gap-1 group flex-shrink-0">
-              <img 
-                src="/images/map nl.png" 
-                alt="Nammude Laundry" 
+              <img
+                src="/images/map nl.png"
+                alt="Nammude Laundry"
                 className="h-10 sm:h-12 md:h-16 w-auto object-contain"
               />
             </a>
@@ -1570,78 +1624,77 @@ const Navbar = () => {
           >
             <Menu size={18} />
           </button>
-          
+
           {/* Logo - Right */}
-          <img 
-            src="/images/map nl.png" 
-            alt="Nammude Laundry" 
+          <img
+            src="/images/map nl.png"
+            alt="Nammude Laundry"
             className="h-14 w-auto object-contain"
           />
         </div>
       </nav>
 
       {/* Mobile Slide Menu */}
-        {isMobileMenuOpen && (
-          <>
-            {/* Backdrop Overlay */}
-            <div 
-              className="fixed inset-0 bg-black/50 z-[60] md:hidden"
-              onClick={() => setIsMobileMenuOpen(false)}
-            ></div>
+      {isMobileMenuOpen && (
+        <>
+          {/* Backdrop Overlay */}
+          <div
+            className="fixed inset-0 bg-black/50 z-[60] md:hidden"
+            onClick={() => setIsMobileMenuOpen(false)}
+          ></div>
 
-            {/* Sliding Menu Panel */}
-            <div className={`fixed top-0 left-0 h-full w-[280px] bg-white shadow-2xl z-[70] md:hidden mobile-menu-enter`}>
-              <div className="flex flex-col h-full">
-                {/* Menu Header */}
-                <div className="flex items-center justify-between p-4 border-b border-gray-200">
-                  <img 
-                    src="/images/image.png" 
-                    alt="Nammude Laundry" 
-                    className="h-12 w-auto object-contain"
-                  />
-                  <button
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="p-2 rounded-full hover:bg-gray-100 transition-colors"
-                  >
-                    <X size={24} className="text-[#003366]" />
-                  </button>
-                </div>
+          {/* Sliding Menu Panel */}
+          <div className={`fixed top-0 left-0 h-full w-[280px] bg-white shadow-2xl z-[70] md:hidden mobile-menu-enter`}>
+            <div className="flex flex-col h-full">
+              {/* Menu Header */}
+              <div className="flex items-center justify-between p-4 border-b border-gray-200">
+                <img
+                  src="/images/image.png"
+                  alt="Nammude Laundry"
+                  className="h-12 w-auto object-contain"
+                />
+                <button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="p-2 rounded-full hover:bg-gray-100 transition-colors"
+                >
+                  <X size={24} className="text-[#003366]" />
+                </button>
+              </div>
 
-                {/* Navigation Links */}
-                <div className="flex-1 overflow-y-auto py-4">
-                  {navLinks.map((link) => (
-                    <a
-                      key={link.name}
-                      href={link.href}
-                      onClick={() => {
-                        setActiveLink(link.href);
-                        setIsMobileMenuOpen(false);
-                      }}
-                      className={`block px-6 py-4 text-base font-semibold transition-colors ${
-                        activeLink === link.href 
-                          ? 'bg-[#003366] text-white' 
-                          : 'text-[#003366] hover:bg-blue-50'
+              {/* Navigation Links */}
+              <div className="flex-1 overflow-y-auto py-4">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    onClick={() => {
+                      setActiveLink(link.href);
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className={`block px-6 py-4 text-base font-semibold transition-colors ${activeLink === link.href
+                        ? 'bg-[#003366] text-white'
+                        : 'text-[#003366] hover:bg-blue-50'
                       }`}
-                    >
-                      {link.name}
-                    </a>
-                  ))}
-                </div>
-
-                {/* Language Toggle - Mobile */}
-                <div className="p-4 border-t border-gray-200">
-                  <button
-                    onClick={toggleLanguage}
-                    className="w-full primary-button active flex items-center justify-center gap-2 py-3"
                   >
-                    <RefreshCw size={16} className="washing-drum" style={{ animationDuration: '3s' }} />
-                    <span>{t.nav.language}</span>
-                  </button>
-                </div>
+                    {link.name}
+                  </a>
+                ))}
+              </div>
+
+              {/* Language Toggle - Mobile */}
+              <div className="p-4 border-t border-gray-200">
+                <button
+                  onClick={toggleLanguage}
+                  className="w-full primary-button active flex items-center justify-center gap-2 py-3"
+                >
+                  <RefreshCw size={16} className="washing-drum" style={{ animationDuration: '3s' }} />
+                  <span>{t.nav.language}</span>
+                </button>
               </div>
             </div>
-          </>
-        )}
+          </div>
+        </>
+      )}
     </>
   );
 };
@@ -1683,9 +1736,9 @@ const Hero = () => {
       <div className="relative z-20 max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 text-center pointer-events-none" style={{ marginTop: '0rem' }}>
         <RevealOnScroll delay={100}>
           <div className="mb-6 md:mb-8 flex justify-center" style={{ marginTop: '0rem' }}>
-            <img 
-              src="/images/image.png" 
-              alt="Nammude Laundry � Nammude Laundry official logo" 
+            <img
+              src="/images/image.png"
+              alt="Nammude Laundry � Nammude Laundry official logo"
               className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto object-contain"
               width="384"
               height="192"
@@ -1715,12 +1768,12 @@ const Hero = () => {
 
         <RevealOnScroll delay={400}>
           <div className="flex justify-center mb-6 md:mb-10">
-            <img 
-              src="/images/lg tr.png" 
-              alt="LG Electronics � Official equipment partner of Nammude Laundry" 
+            <img
+              src="/images/lg tr.png"
+              alt="LG Electronics � Official equipment partner of Nammude Laundry"
               className="h-16 sm:h-22 md:h-28 lg:h-32 w-auto object-contain"
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
               width="500"
               height="200"
             />
@@ -1832,7 +1885,7 @@ const About = () => {
                   alt="LG Commercial Washing Machine - Professional Direct Drive Washer"
                   className="w-[600px] md:w-[500px] h-auto relative z-10"
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   width="600"
                   height="800"
                   style={{
@@ -1942,7 +1995,7 @@ const WhyNammude = () => {
                 <h2 id="why-nammude-heading" className="text-4xl md:text-6xl font-bold font-heading text-[#a50034] leading-tight mb-8 text-center lg:text-left" style={{ position: 'relative', zIndex: 20 }}>
                   {t.whyNammude.title}
                 </h2>
-                
+
                 {/* Icon-based List */}
                 <div className="space-y-2 flex-1">
                   {reasons.map((item, i) => (
@@ -1970,9 +2023,9 @@ const WhyNammude = () => {
                 <div className="relative w-[400px] h-[500px] md:w-[450px] md:h-[550px]">
                   {/* First Image - Top */}
                   <div className="absolute top-0 right-0 group">
-                    <img 
-                      src="/images/kerala peoples.png" 
-                      alt="Diverse Kerala community members benefiting from Nammude Laundry franchise program" 
+                    <img
+                      src="/images/kerala peoples.png"
+                      alt="Diverse Kerala community members benefiting from Nammude Laundry franchise program"
                       className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-2xl border-8 border-white group-hover:scale-105 transition-transform duration-300 relative z-10"
                       loading="lazy"
                       width="288"
@@ -1984,9 +2037,9 @@ const WhyNammude = () => {
 
                   {/* Second Image - Bottom (Overlapping) */}
                   <div className="absolute bottom-0 left-0 group">
-                    <img 
-                      src="/images/kovil kerala.png" 
-                      alt="Kerala cultural landmark representing Nammude Laundry's community roots" 
+                    <img
+                      src="/images/kovil kerala.png"
+                      alt="Kerala cultural landmark representing Nammude Laundry's community roots"
                       className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-2xl border-8 border-white group-hover:scale-105 transition-transform duration-300 relative z-10"
                       style={{ objectPosition: 'center 92%' }}
                       loading="lazy"
@@ -2206,37 +2259,37 @@ const WhoCanJoin = () => {
             {categories.map((item, i) => (
               <div key={i} className="who-card">
                 {i === 0 ? (
-                  <img 
-                    src="/images/dhobi.jpeg" 
-                    alt="Traditional dhobi families" 
+                  <img
+                    src="/images/dhobi.jpeg"
+                    alt="Traditional dhobi families"
                     className="who-image"
                     style={{ objectFit: 'cover', objectPosition: 'center top' }}
                   />
                 ) : i === 1 ? (
-                  <img 
-                    src="/images/Cooking up some love in my favorite corner of the house!.jpg" 
-                    alt="Women / Homemakers" 
+                  <img
+                    src="/images/Cooking up some love in my favorite corner of the house!.jpg"
+                    alt="Women / Homemakers"
                     className="who-image"
                     style={{ objectFit: 'cover', objectPosition: 'center top' }}
                   />
                 ) : i === 2 ? (
-                  <img 
-                    src="/images/Serva Dharma Ashram Trust India help sick, physical challenged people_.jpg" 
-                    alt="Differently-abled individuals" 
+                  <img
+                    src="/images/Serva Dharma Ashram Trust India help sick, physical challenged people_.jpg"
+                    alt="Differently-abled individuals"
                     className="who-image"
                     style={{ objectFit: 'cover', objectPosition: 'center top' }}
                   />
                 ) : i === 3 ? (
-                  <img 
-                    src="/images/Sahaj ties up with Techno India to skill 1 lakh rural youth.jpg" 
-                    alt="Unemployed youth" 
+                  <img
+                    src="/images/Sahaj ties up with Techno India to skill 1 lakh rural youth.jpg"
+                    alt="Unemployed youth"
                     className="who-image"
                     style={{ objectFit: 'cover', objectPosition: 'center center' }}
                   />
                 ) : i === 4 ? (
-                  <img 
-                    src="/images/A Guide to Starting a Small Business in Mexico as an American Entrepreneur.jpg" 
-                    alt="Aspiring small business owners" 
+                  <img
+                    src="/images/A Guide to Starting a Small Business in Mexico as an American Entrepreneur.jpg"
+                    alt="Aspiring small business owners"
                     className="who-image"
                     style={{ objectFit: 'cover', objectPosition: 'center center' }}
                   />
@@ -2255,6 +2308,116 @@ const WhoCanJoin = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </RevealOnScroll>
+      </div>
+    </section>
+  );
+};
+
+const PartnerProgram = () => {
+  const { t } = useLanguage();
+  const partnerData = t.partnerProgram || {
+    badge: 'THE NAMMUDE LAUNDRY BUSINESS PARTNER PROGRAM',
+    tagline: 'Laundry Services | Training & Incubation Centre',
+    title: "More Than a Partnership – It's Your Path to Entrepreneurship.",
+    description: "Every successful business begins with the right support. That's exactly what the Nammude Laundry Business Partner Program is designed to provide—everything you need to start, operate, and grow a professional laundry business.",
+    whyTitle: 'Why Partner With Us?',
+    points: [
+      'Zero Franchise Fee',
+      'No Royalty',
+      'Own Your Business',
+      'Keep 100% of Your Profits',
+      'Complete Business Setup',
+      'Hands-On Practical Training',
+      'Standard Operating Systems & Processes',
+      'Technical & After-Sales Support',
+      'Marketing & Business Guidance',
+      'Unlimited Growth Opportunities'
+    ]
+  };
+
+  return (
+    <section id="partner-program" className="py-20 relative overflow-hidden bg-white z-10" aria-labelledby="partner-program-heading">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+        {/* Section Header */}
+        <RevealOnScroll>
+          <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#a50034]/10 text-[#a50034] text-xs font-bold uppercase tracking-wider mb-3 border border-[#a50034]/20 shadow-sm">
+              <Sparkles size={14} className="animate-pulse text-[#a50034]" />
+              {partnerData.badge}
+            </div>
+            
+            <p className="text-slate-500 font-semibold text-xs sm:text-sm tracking-wide uppercase mb-2">
+              {partnerData.tagline}
+            </p>
+
+            <h2 id="partner-program-heading" className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-4 font-heading">
+              {partnerData.title}
+            </h2>
+
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
+              {partnerData.description}
+            </p>
+          </div>
+        </RevealOnScroll>
+
+        {/* Section Grid Content */}
+        <RevealOnScroll delay={150}>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+
+            {/* Image Column (Left Side) */}
+            <div className="lg:col-span-5 max-w-md mx-auto lg:max-w-none w-full">
+              <div className="relative rounded-2xl overflow-hidden shadow-md border border-slate-100 bg-white">
+                <img
+                  src="/images/partner_program.jpg"
+                  alt="Nammude Laundry Business Partner Program"
+                  className="w-full h-[320px] sm:h-[380px] lg:h-[420px] object-cover hover:scale-102 transition-transform duration-500 ease-out"
+                />
+              </div>
+            </div>
+
+            {/* Why Partner With Us (Right Side) */}
+            <div className="lg:col-span-7">
+              <div className="flex items-center gap-2.5 mb-5">
+                <div className="w-8 h-8 rounded-lg bg-[#a50034]/10 text-[#a50034] flex items-center justify-center flex-shrink-0">
+                  <CheckCircle size={20} strokeWidth={2.5} />
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-heading">
+                  {partnerData.whyTitle}
+                </h3>
+              </div>
+
+              {/* Clean bullet list */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-6">
+                {partnerData.points.map((point, index) => (
+                  <div key={index} className="flex items-center gap-2.5">
+                    <div className="w-5 h-5 rounded-full bg-[#a50034]/10 text-[#a50034] flex items-center justify-center flex-shrink-0">
+                      <CheckCircle size={14} strokeWidth={2.5} />
+                    </div>
+                    <span className="text-slate-700 font-medium text-sm sm:text-base">
+                      {point}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Call To Action */}
+              <div className="pt-5 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p className="text-xs sm:text-sm text-slate-500 font-medium text-center sm:text-left">
+                  Ready to launch your business with 100% ownership?
+                </p>
+                <a
+                  href="#contact"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-[#a50034] hover:bg-[#85002a] text-white text-sm font-bold shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
+                >
+                  <span>Become a Partner</span>
+                  <ArrowRight size={16} />
+                </a>
+              </div>
+            </div>
+
           </div>
         </RevealOnScroll>
       </div>
@@ -2372,10 +2535,64 @@ const CSRSupport = () => {
   );
 };
 
+const SocialEnterpriseSection = () => {
+  const { t } = useLanguage();
+  const data = t.socialEnterprise || {
+    title: 'The Nammude Laundry: a self-income generating program.',
+    description: 'We are a commercial laundry social enterprise built to empower economically backward communities through self-income generation and help them attain financial independence.',
+    quote: 'Because everyone deserves the chance to build their own success story!',
+    tagline: 'The revolution begins today.'
+  };
+
+  return (
+    <section id="empowerment-program" className="py-16 relative overflow-hidden bg-white z-10" aria-label="Nammude Laundry Empowerment Program">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <RevealOnScroll>
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+            
+            {/* Image (Left Side) - Standalone without card box */}
+            <div className="w-full lg:w-5/12 max-w-md mx-auto lg:max-w-none flex-shrink-0">
+              <img 
+                src="/images/nammude_banner.jpg" 
+                alt="Nammude Laundry Business Partner Program Banner" 
+                className="w-full h-auto object-contain max-h-[340px] mx-auto block"
+              />
+            </div>
+
+            {/* Text Content (Right Side) - Clean text without boxes */}
+            <div className="w-full lg:w-7/12 space-y-5 text-left">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#a50034] font-heading leading-tight">
+                {data.title}
+              </h2>
+
+              <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
+                {data.description}
+              </p>
+
+              {/* Plain quote text in brand red */}
+              <p className="text-lg sm:text-xl font-bold text-[#a50034] italic">
+                "{data.quote}"
+              </p>
+
+              <div className="pt-2">
+                <p className="inline-flex items-center gap-2 text-[#1e3a8a] text-base sm:text-lg font-extrabold tracking-wide uppercase">
+                  <Sparkles size={18} className="text-[#a50034] animate-pulse" />
+                  {data.tagline}
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </RevealOnScroll>
+      </div>
+    </section>
+  );
+};
+
 const Contact = () => {
   const { t } = useLanguage();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  
+
   const sendEmail = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -2399,7 +2616,7 @@ const Contact = () => {
       setIsSubmitting(false);
     }
   };
-  
+
   return (
     <section id="contact" className="py-20 relative z-10 overflow-hidden bg-white" aria-labelledby="contact-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -2537,9 +2754,9 @@ const Footer = () => {
     <footer className="bg-white text-slate-600 py-12 border-t border-slate-200 z-10 relative" role="contentinfo" aria-label="Nammude Laundry footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center">
-          <img 
-            src="/images/image.png" 
-            alt="Nammude Laundry � Nammude Laundry official logo" 
+          <img
+            src="/images/image.png"
+            alt="Nammude Laundry � Nammude Laundry official logo"
             className="h-12 w-auto"
             loading="lazy"
             width="96"
@@ -2556,7 +2773,7 @@ const Footer = () => {
 
 export default function App() {
   console.log('App component rendering...');
-  
+
   return (
     <ErrorBoundary>
       <LanguageProvider>
@@ -2570,10 +2787,12 @@ export default function App() {
               <ScrollProgress />
               <Hero />
               <WhoCanJoin />
+              <PartnerProgram />
               <Franchise />
               <WhyNammude />
               <Training />
               <CSRSupport />
+              <SocialEnterpriseSection />
               <About />
               <Vision />
               <Contact />
