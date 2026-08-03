@@ -1675,8 +1675,8 @@ const Navbar = () => {
                       setIsMobileMenuOpen(false);
                     }}
                     className={`block px-6 py-4 text-base font-semibold transition-colors ${activeLink === link.href
-                        ? 'bg-[#003366] text-white'
-                        : 'text-[#003366] hover:bg-blue-50'
+                      ? 'bg-[#003366] text-white'
+                      : 'text-[#003366] hover:bg-blue-50'
                       }`}
                   >
                     {link.name}
@@ -2343,18 +2343,18 @@ const PartnerProgram = () => {
   return (
     <section id="partner-program" className="py-16 md:py-20 relative overflow-hidden bg-white z-10" aria-labelledby="partner-program-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Main Section Grid: Left Content, Right Image */}
         <RevealOnScroll>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
 
-            {/* Left Column - All Text Details */}
-            <div className="lg:col-span-6 flex flex-col justify-start">
+            {/* Left Column - All Text Details (Padded right to prevent social icon overlap) */}
+            <div className="lg:col-span-6 flex flex-col justify-start pl-10 sm:pl-12 lg:pl-14">
               {/* Main Badge / Title */}
               <h2 id="partner-program-heading" className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#003366] tracking-tight leading-tight mb-2 font-heading uppercase">
                 {partnerData.badge}
               </h2>
-              
+
               {/* Tagline */}
               <p className="text-[#a50034] font-bold text-sm sm:text-base tracking-wide mb-6">
                 {partnerData.tagline}
@@ -2528,12 +2528,12 @@ const SocialEnterpriseSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <RevealOnScroll>
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-            
+
             {/* Image (Left Side) - Standalone without card box */}
             <div className="w-full lg:w-5/12 max-w-md mx-auto lg:max-w-none flex-shrink-0">
-              <img 
-                src="/images/nammude_banner.jpg" 
-                alt="Nammude Laundry Business Partner Program Banner" 
+              <img
+                src="/images/nammude_banner.jpg"
+                alt="Nammude Laundry Business Partner Program Banner"
                 className="w-full h-auto object-contain max-h-[340px] mx-auto block"
               />
             </div>
