@@ -82,6 +82,7 @@ const translations = {
       training: 'Training',
       whoCanJoin: 'Who Can Join',
       franchise: 'Franchise',
+      partnerProgram: 'Partner Program',
       csrSupport: 'CSR & Support',
       contact: 'Contact',
       language: 'ENG',
@@ -272,6 +273,7 @@ const translations = {
       training: 'പരിശീലനം',
       whoCanJoin: 'ആർക്കെല്ലാം ചേരാം',
       franchise: 'ഫ്രാഞ്ചൈസി',
+      partnerProgram: 'പാർട്ണർ പ്രോഗ്രാം',
       csrSupport: 'CSR & പിന്തുണ',
       contact: 'ബന്ധപ്പെടുക',
       language: 'മലയാളം',
@@ -1285,7 +1287,7 @@ const Navbar = () => {
   // Detect active section based on scroll position
   useEffect(() => {
     const handleScrollSpy = () => {
-      const sections = ['home', 'about', 'vision', 'why-nammude', 'equipment', 'training', 'who-can-join', 'franchise', 'csr-support', 'contact'];
+      const sections = ['home', 'about', 'vision', 'why-nammude', 'equipment', 'training', 'who-can-join', 'partner-program', 'franchise', 'csr-support', 'contact'];
       const scrollPosition = window.scrollY + 200; // Offset for better detection
 
       for (const section of sections) {
@@ -1310,6 +1312,7 @@ const Navbar = () => {
   const navLinks = [
     { name: t.nav.home, href: '#home' },
     { name: t.nav.whoCanJoin, href: '#who-can-join' },
+    { name: t.nav.partnerProgram, href: '#partner-program' },
     { name: t.nav.whyNammude, href: '#why-nammude' },
     { name: t.nav.training, href: '#training' },
     { name: t.nav.csrSupport, href: '#csr-support' },
@@ -2338,148 +2341,124 @@ const PartnerProgram = () => {
   };
 
   return (
-    <section id="partner-program" className="py-20 relative overflow-hidden bg-white z-10" aria-labelledby="partner-program-heading">
+    <section id="partner-program" className="py-16 md:py-20 relative overflow-hidden bg-white z-10" aria-labelledby="partner-program-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-
-        {/* Section Header */}
+        
+        {/* Main Section Grid: Left Content, Right Image */}
         <RevealOnScroll>
-          <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#a50034]/10 text-[#a50034] text-xs font-bold uppercase tracking-wider mb-3 border border-[#a50034]/20 shadow-sm">
-              <Sparkles size={14} className="animate-pulse text-[#a50034]" />
-              {partnerData.badge}
-            </div>
-            
-            <p className="text-slate-500 font-semibold text-xs sm:text-sm tracking-wide uppercase mb-2">
-              {partnerData.tagline}
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
 
-            <h2 id="partner-program-heading" className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-4 font-heading">
-              {partnerData.title}
-            </h2>
+            {/* Left Column - All Text Details */}
+            <div className="lg:col-span-6 flex flex-col justify-start">
+              {/* Main Badge / Title */}
+              <h2 id="partner-program-heading" className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#003366] tracking-tight leading-tight mb-2 font-heading uppercase">
+                {partnerData.badge}
+              </h2>
+              
+              {/* Tagline */}
+              <p className="text-[#a50034] font-bold text-sm sm:text-base tracking-wide mb-6">
+                {partnerData.tagline}
+              </p>
 
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-              {partnerData.description}
-            </p>
-          </div>
-        </RevealOnScroll>
+              <hr className="border-gray-200 mb-6" />
 
-        {/* Section Grid Content */}
-        <RevealOnScroll delay={150}>
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              {/* Subtitle */}
+              <h3 className="text-xl sm:text-2xl font-bold text-[#003366] leading-snug mb-4 font-heading">
+                {partnerData.title}
+              </h3>
 
-            {/* Image Column (Left Side) */}
-            <div className="lg:col-span-5 max-w-md mx-auto lg:max-w-none w-full">
-              <div className="relative rounded-2xl overflow-hidden shadow-md border border-slate-100 bg-white">
-                <img
-                  src="/images/partner_program.jpg"
-                  alt="Nammude Laundry Business Partner Program"
-                  className="w-full h-[320px] sm:h-[380px] lg:h-[420px] object-cover hover:scale-102 transition-transform duration-500 ease-out"
-                />
-              </div>
-            </div>
+              {/* Description */}
+              <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal mb-8">
+                {partnerData.description}
+              </p>
 
-            {/* Why Partner With Us (Right Side) */}
-            <div className="lg:col-span-7">
-              <div className="flex items-center gap-2.5 mb-5">
-                <div className="w-8 h-8 rounded-lg bg-[#a50034]/10 text-[#a50034] flex items-center justify-center flex-shrink-0">
-                  <CheckCircle size={20} strokeWidth={2.5} />
-                </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-heading">
-                  {partnerData.whyTitle}
-                </h3>
-              </div>
+              {/* Why Partner With Us Heading */}
+              <h4 className="text-base sm:text-lg font-bold text-[#003366] mb-4 font-heading">
+                {partnerData.whyTitle}
+              </h4>
 
-              {/* Clean bullet list */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-6">
+              {/* Checkbox Bullet Points List */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-3.5 mb-8">
                 {partnerData.points.map((point, index) => (
                   <div key={index} className="flex items-center gap-2.5">
-                    <div className="w-5 h-5 rounded-full bg-[#a50034]/10 text-[#a50034] flex items-center justify-center flex-shrink-0">
-                      <CheckCircle size={14} strokeWidth={2.5} />
-                    </div>
-                    <span className="text-slate-700 font-medium text-sm sm:text-base">
+                    <CheckCircle size={18} className="text-[#a50034] flex-shrink-0" strokeWidth={2} />
+                    <span className="text-slate-800 font-medium text-xs sm:text-sm">
                       {point}
                     </span>
                   </div>
                 ))}
               </div>
+            </div>
 
-              {/* Call To Action */}
-              <div className="pt-5 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <p className="text-xs sm:text-sm text-slate-500 font-medium text-center sm:text-left">
-                  Ready to launch your business with 100% ownership?
-                </p>
-                <a
-                  href="#contact"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-[#a50034] hover:bg-[#85002a] text-white text-sm font-bold shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
-                >
-                  <span>Become a Partner</span>
-                  <ArrowRight size={16} />
-                </a>
+            {/* Right Column - Large Featured Image */}
+            <div className="lg:col-span-6 w-full sticky top-28">
+              <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-slate-100 bg-white">
+                <img
+                  src="/images/partner_program.jpg"
+                  alt="Nammude Laundry Business Partner Program"
+                  className="w-full h-[360px] sm:h-[480px] lg:h-[540px] object-cover hover:scale-102 transition-transform duration-500 ease-out"
+                />
               </div>
             </div>
 
           </div>
         </RevealOnScroll>
-      </div>
-    </section>
-  );
-};
 
-const Franchise = () => {
-  const { t } = useLanguage();
-  const franchiseItems = [
-    { text: t.franchise.item1, icon: CircleDot },
-    { text: t.franchise.item2, icon: Home },
-    { text: t.franchise.item3, icon: Star },
-    { text: t.franchise.item4, icon: Wrench },
-    { text: t.franchise.item5, icon: GraduationCap },
-    { text: t.franchise.item6, icon: Sparkles },
-    { text: t.franchise.item7, icon: Monitor },
-    { text: t.franchise.item8, icon: RefreshCw }
-  ];
-
-  return (
-    <section id="franchise" className="py-20 relative overflow-hidden z-10" aria-labelledby="franchise-heading" style={{
-      background: '#ffffff',
-      backgroundImage: 'url("/images/kerala map.png")',
-      backgroundSize: 'contain',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat'
-    }}>
-      <div style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        backgroundColor: 'rgba(255, 255, 255, 0.85)',
-        zIndex: 0
-      }}></div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative" style={{ zIndex: 2 }}>
-        <RevealOnScroll>
-          <div className="text-center mb-16">
-            <h2 id="franchise-heading" className="text-3xl md:text-5xl font-bold mb-4 font-heading text-[#003366] sr-only">{t.franchise.title}</h2>
-            <p className="text-[#c62222] text-3xl md:text-4xl font-bold max-w-3xl mx-auto leading-relaxed">
-              {t.franchise.subtitle}
-            </p>
-          </div>
-        </RevealOnScroll>
-
-        <RevealOnScroll delay={200}>
-          <div className="max-w-3xl mx-auto">
-            {franchiseItems.map((item, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-6 py-6 border-b border-gray-200 hover:bg-blue-50/50 transition-all duration-300 px-6 rounded-lg group"
-              >
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1e3a8a] to-[#1e40af] text-white flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg">
-                  <item.icon size={28} strokeWidth={2.5} />
+        {/* Franchise / What We Provide Details (Original Design Restored) */}
+        <div className="mt-16 pt-12 border-t border-slate-200">
+          <div className="py-12 md:py-20 relative overflow-hidden rounded-3xl" style={{
+            background: '#ffffff',
+            backgroundImage: 'url("/images/kerala map.png")',
+            backgroundSize: 'contain',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}>
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: 'rgba(255, 255, 255, 0.85)',
+              zIndex: 0
+            }}></div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative" style={{ zIndex: 2 }}>
+              <RevealOnScroll>
+                <div className="text-center mb-16">
+                  <h2 className="text-3xl md:text-5xl font-bold mb-4 font-heading text-[#003366] sr-only">{t.franchise.title}</h2>
+                  <p className="text-[#c62222] text-3xl md:text-4xl font-bold max-w-3xl mx-auto leading-relaxed">
+                    {t.franchise.subtitle}
+                  </p>
                 </div>
-                <p className="text-gray-800 font-semibold text-xl flex-1">{item.text}</p>
-              </div>
-            ))}
+              </RevealOnScroll>
+
+              <RevealOnScroll delay={200}>
+                <div className="max-w-3xl mx-auto">
+                  {[
+                    { text: t.franchise.item1, icon: CircleDot },
+                    { text: t.franchise.item2, icon: Home },
+                    { text: t.franchise.item3, icon: Star },
+                    { text: t.franchise.item4, icon: Wrench },
+                    { text: t.franchise.item5, icon: GraduationCap },
+                    { text: t.franchise.item6, icon: Sparkles },
+                    { text: t.franchise.item7, icon: Monitor },
+                    { text: t.franchise.item8, icon: RefreshCw }
+                  ].map((item, i) => (
+                    <div
+                      key={i}
+                      className="flex items-center gap-6 py-6 border-b border-gray-200 hover:bg-blue-50/50 transition-all duration-300 px-6 rounded-lg group"
+                    >
+                      <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#1e3a8a] to-[#1e40af] text-white flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg">
+                        <item.icon size={28} strokeWidth={2.5} />
+                      </div>
+                      <p className="text-gray-800 font-semibold text-xl flex-1">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </RevealOnScroll>
+            </div>
           </div>
-        </RevealOnScroll>
+        </div>
       </div>
     </section>
   );
@@ -2788,7 +2767,6 @@ export default function App() {
               <Hero />
               <WhoCanJoin />
               <PartnerProgram />
-              <Franchise />
               <WhyNammude />
               <Training />
               <CSRSupport />
